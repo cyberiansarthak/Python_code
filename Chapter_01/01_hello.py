@@ -5,5 +5,8 @@
 
 '''
 #to print something in python
-print("hello welcome to python guys!")
+print("welcome to python guys!")
+
+# to move cursor to next line after  printing
+print("welcome to python guys!\n this is our python code book")
 
