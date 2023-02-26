@@ -1,0 +1,6 @@
+#WE CAN USE ELSE STATEMENT WITH FOR LOOP 
+#AFTER FOR LOOP WE CAN WRITE THE ELSE WHICH IS EXECUTE AFTER LOOP END
+for i in range(10):
+    print(i)
+else:    
+    print("\n") 
