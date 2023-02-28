@@ -1,5 +1,5 @@
 import os 
-ret =os.access(r"C:\Users\Lenovo\OneDrive\Desktop\python_lab",os.F_OK)
+ret =os.access(r"C:\Users\Lenovo\OneDrive\Desktop\backend",os.F_OK)
 print ("F_OK - return value %s", ret)
 
 ret1 =os.access(r"C:\Users\Lenovo\OneDrive\Desktop\python_lab",os.R_OK)
