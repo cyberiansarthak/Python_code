@@ -6,11 +6,11 @@ class StaticClass:
         print("I am static method")
 
 
-     @staticmethod                    # we can not use self parameter in static method
+    @staticmethod                    # we can not use self parameter in static method
     def Static_method(self):                #this line throw an error
         print("I am static method")
 
 
 StaticClass.isStatic_method()      # now we can use this method without passing any parameter
-StaticClass.isStatic_method(parmeter)    #this line throw an error
+StaticClass.Static_method()    #this line throw an error
 
