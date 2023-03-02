@@ -16,5 +16,17 @@ Student.name="Dev"                #instance variable
 Student.branch="icb"              #instance variable
 Student.isPrint()
 
+
+#MODELLING A PROBLEM IN OOPS
+#class -->Employee(noun)
+#Attributes --> name,age,salary(adjective)
+#methods --->Salary()(verb)
+class Employee:                                  #Class
+    name ="Sarthak"
+    age =18                                      #Attributes
+    Salary =50000
+    def Salary(self):                            #Methods
+        print("Salary of employee :",self.Salary)
+
      
 
